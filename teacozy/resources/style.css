@@ -1,0 +1,170 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+
+
+header{
+  height: 69px;
+  position: fixed;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo{
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav{
+  padding-left: 900px;
+  text-align: right;
+}
+
+nav span{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+nav span a{
+  color: seashell;
+  text-decoration: underline;
+}
+
+.mainheading{
+  padding-top: 42px;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.mainimage{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mainimagetext{
+  background-color: black;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.mainheading h2{
+  padding-top: 5px;
+}
+
+.mainheading h4{
+  padding-bottom: 8px;
+}
+
+.subheading{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.subheadingtext{
+  text-align: center;
+}
+
+.subheadingimages{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subheadingimages img{
+  width: 300px;
+  height: 200px;
+}
+
+.firstimage{
+  float: left;
+  padding-right: 40px;
+}
+
+.secondimage{
+  float: left;
+  padding-right: 20px;
+}
+
+.fourthimage{
+  float: left;
+  padding-left: 200px;
+  padding-right: 40px;
+}
+
+.fifthimage{
+  float: left;
+}
+
+.bottomheading{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  margin-top: 375px;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 40px;
+}
+
+.locationstitle{
+  text-align: center;
+  padding-top: 75px;
+}
+
+.blackboxes{
+  margin-left: 100px
+}
+
+.leftsection{
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  float: left;
+  margin-right: 40px;
+  width: 300px;
+}
+
+.middlesection{
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+  float: left;
+  margin-right: 40px;
+  width: 300px;
+}
+
+.rightsection{
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+  float: left;
+  width: 300px;
+}
+
+.bottomsection{
+  height: 200px;
+  text-align: center;
+  width: 1200px;
+  margin-top: 400px;
+}
+
+.copyright{
+  text-align: left;
+  margin-top: 250px;
+  padding-left: 20px;
+}
